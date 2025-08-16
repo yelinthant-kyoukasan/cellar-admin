@@ -1,5 +1,5 @@
 const itemsModel = require('../models/itemsModel')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs');
 
 const addItem = async (req, res, next) => {
     try {
