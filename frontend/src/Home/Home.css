@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+}
+
+.home-container{
+    flex: 6;
+}
+
+.widgets{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    gap: 20px;
+}
+

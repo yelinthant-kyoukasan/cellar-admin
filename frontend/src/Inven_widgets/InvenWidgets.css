@@ -1,0 +1,42 @@
+.inven-widget{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding: 10px 15px;
+        border-radius: 10px;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201,201,201, 0.47);
+        height: 100px;   
+        justify-content: space-between;
+}
+
+.inven-title{
+    display: flex;
+    flex: 0.2;
+    /* background-color: black; */
+}
+
+.inven-widget .inven-title p{
+    font-size: 14px;
+    font-weight: 470;
+    text-transform: uppercase;
+}
+
+.inven-below{
+    display: flex;
+    flex: 0.8;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.inven-icon{
+    display: flex;
+    flex: 0.5;
+    /* background-color: black; */
+}
+
+.inven-amount p{
+    font-size: x-large;
+}

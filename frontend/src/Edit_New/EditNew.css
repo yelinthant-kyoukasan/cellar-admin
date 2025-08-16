@@ -1,0 +1,100 @@
+.top-container{
+    margin-top: 50px;
+}
+
+.top, .bottom{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201, 0.47);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+}
+
+.top h2{
+    color: teal;
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 80%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .left{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.right{
+    margin: 23px;    
+}
+
+/* .left img{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+} */
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /*justify-content: space-evenly;*/
+}
+
+form .formInput{
+    width: 40%;
+}
+
+.formInput input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #d3d0cc;
+    padding: 5px;
+}
+
+.formInput input:focus{
+    border: none;
+    border-bottom: 1px solid #d3d0cc;
+    outline: none;
+}
+
+.formInput label{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+}
+
+/* .img-icon{
+    cursor: pointer;
+    color: teal;
+} */
+
+form button{
+    border: none;
+    background-color: teal;
+    width: 150px;
+    color: white;
+    padding: 10px;
+    font-weight: normal;
+    cursor: pointer;
+    margin: 0 5px;
+    border: 2px solid teal;
+
+}
+
+form button:hover{
+    background-color: #fff;
+    color: teal;
+    border: 2px solid teal;
+    transition: 0.3s;
+}

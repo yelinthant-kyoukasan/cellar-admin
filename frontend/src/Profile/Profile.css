@@ -1,0 +1,16 @@
+.user-header{
+    color: #2c2c2c;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #d3d0cc;
+    padding-bottom: 15px;
+}
+
+.user-details{
+    margin: 15px;
+    height: 45vh;
+}
+
+.user-info{
+    margin-top: 40px;
+    /* height: 1000px; */
+}

@@ -1,0 +1,28 @@
+.datatable{
+    margin: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #bdb5b5;
+    text-align: left;
+    border-radius: 20px;
+}
+
+tr {
+    border-top: 1px solid #bdb5b5;
+}
+
+th{
+    font-weight: 600;
+}
+
+tr, th, td{
+    padding: 15px;
+}
+
+.table-icons:hover{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201, 0.47);
+}

@@ -1,0 +1,11 @@
+.layout{
+    display: flex;
+}
+
+.layout-container{
+    flex: 6;
+}
+
+.layout-children{
+    margin: 20px;
+}
