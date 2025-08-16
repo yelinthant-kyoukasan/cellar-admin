@@ -1,4 +1,4 @@
-const host = "http://localhost:4030";
+const host = "https://cellar-admin.onrender.com";
 export const addUserRoute = `${host}/api/auth/register`;
 export const loginUserRoute = `${host}/api/auth/login`;
 export const addItemRoute = `${host}/api/items/additem`;
